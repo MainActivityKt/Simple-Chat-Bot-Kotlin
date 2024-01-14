@@ -1,9 +1,13 @@
 package bot
 
-const val name = "Ellie"
-const val creationDate = 2024
+private const val name = "Ellie"
+private const val creationDate = 2024
 
-fun main() {
+fun printInitialInfo() {
     println("Hello! My name is $name.")
     println("I was created in $creationDate")
+}
+
+fun main() {
+    printInitialInfo()
 }
